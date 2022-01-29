@@ -1,0 +1,67 @@
+create database eventdatabase;
+
+use eventdatabase;
+
+
+Create table LoginTab
+(uName varchar(50),
+pWord varchar(50));
+
+insert into logintab values('admin','admin');
+
+
+Create table CourseTab
+(CourseName varchar(50) primary key,
+Details  varchar(250),
+Duration  varchar(50));
+
+Create table StudentTab
+(regno varchar(50) primary key,
+pWord  varchar(50),
+StudentName  varchar(50),
+sAddress  varchar(250),
+MobileNo varchar(20),
+eMail  varchar(50),
+CourseName varchar(50));
+
+
+Create table EventTypeTab
+(EventTypeName varchar(50) primary key,
+pWord  varchar(50));
+
+Create table EventTab
+(eventcode varchar(50) primary key,
+eName  varchar(50),
+eventtypeName  varchar(50),
+details  varchar(250),
+eventdate varchar(20),
+pName  varchar(50),
+MobileNo varchar(50));
+
+Create table ApplicantTab
+(eventcode varchar(50),
+regNo  varchar(50),
+sStatus varchar(1));
+
+
+
+
+
+
+=======================================================
+Please contact us if you any project requirements.
+
+
+Real time or Academics 
+
+We do project in VB, VB.net, ASP.net, C#, MS SqlServer, Java, JSP, PHP, Mysql, Python, Android, Electronics, IOT etc.,
+
+You can share your project related queries here. We have around 20 years of experience in developing projects in VB, VB.net, ASP.net, C#, MS SqlServer, Java, JSP, PHP, Mysql, Python, Android. We specialize in providing be final year project along with proper guidance  and training. We provide all these so that students can get real time knowledge along with training and guidance throughout their final year. By joining our institute not only you will complete your project, you gain lot of subject knowledge and project experience.
+
+Please contact us at.
+HighBlix Projects
+No 826, 9th Main, Hampinagar
+Bangalore, Karnataka, India. Pin - 560104.
+email : highblix@gmail.com
+Whatsapp No : 9243101428, 7019755620
+
